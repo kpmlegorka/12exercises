@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Круговая тренировка</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="slider">
+      <div class="reviews">
+        <h2><span>12 упражнений</span></h2>
+      </div>
+      <div class="grid2">
+      <div class="item-5">
+        <button id="button30" class="timer-btn">Таймер 30сек</button>
+      </div>
+      <div class="item-6">
+        <button id="button60" class="timer-btn">Таймер 60сек</button>
+      </div> </div>
+      <div class="grid">
+        <div class="item-1">
+          <div class="slide-container">
+        <!-- <article class="slide">
+          <img
+            src="/img/1.jump-squats2.gif"
+            class="img"
+            alt="Приседания с прыжками"
+          />
+          <h4>1. Прыжки</h4>
+          <p class="title">Мышцы ног, спины и пресса</p>
+          <p class="text">
+            ыфвфывфвфыв
+          </p>
+          
+        </article>-->
+      </div></div>
+      <div class="item-2">
+        <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+          <circle id="circle" class="circle_animation" r="72" cy="80" cx="85" stroke-width="6" stroke="#6fdb6f" fill="none"/>
+        </svg>
+      </div>
+      <div class="item-3">
+        <h2><div id="timer"></div></h2>
+      </div>
+  </div>
+    <div id="wave"></div>
+     
+      <div class="modal-overlay">
+        <div class="modal-container">
+          12 упражнений, которые необходимо сделать на время.</br>
+            Начать следует с первого и делать одно за другим, отводя на каждое упражнение по 30\60 взависимости от возможностей организма без отдыха между подходами. 
+          </br>Выполните столько элементов, сколько позволит ваша физическая подготовка. Например, на первом занятии получилось сделать пять упражнений, значит, следующую тренировку следует начинать с 5ого же упражнения и идти далее. 
+          В итоге тренировки будут разнообразными, то есть упражнения не будут повторяться, пока вы не сможете выполнить подряд все 12 элементов.
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+      </div>
+      <!-- buttons -->
+      <!-- prev btn -->
+      <button class="btn prev-btn">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <!-- next button -->
+      <button class="btn next-btn">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </section>
+    <script type="module" src="app.js"></script>
+    <script src="modal.js"></script>
+  </body>
+</html>
