@@ -311,17 +311,15 @@ svg {
 .grid2 {
   display: grid;
   grid-auto-rows: 1fr; /* размер "неявных" строк, для демонстрации */
-  grid-auto-columns: 1fr; /* размер "неявных" столбцов, для демонстрации */
+  grid-auto-columns: 2fr; /* размер "неявных" столбцов, для демонстрации */
 }
 .item-5 {
-  margin-left: 10rem;
   grid-row: 1;
   grid-column: 1;
 }
 .item-6 {
-  margin-right: 10rem;
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
 }
 
 .timer-btn {
